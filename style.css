@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.first-word {
+    color: orange;
+}
+
+.flexible-content {
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+.bg-img {
+    background-image: url(images/shapes/Frame\ 58.jpg)
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(255, 197, 88), tomato);
+}
+
