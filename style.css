@@ -39,3 +39,6 @@ h1 {
     background-image: linear-gradient(rgb(255, 197, 88), tomato);
 }
 
+.align {
+    text-align: center;
+}
