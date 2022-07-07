@@ -2,9 +2,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+section {
+    margin-bottom: 70px;
+}
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
+}
+h2 {
+    font-size: 45px;
+}
+h3 {
+    font-size: 25px;
 }
 
 .first-word {
@@ -17,28 +26,80 @@ h1 {
     
 }
 
-.bg-img {
-    background-image: url(images/shapes/Frame\ 58.jpg)
+.about-me {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: 100%;
+    
+}
+
+
+.my-recipie {
+    margin:50px 100px;
 }
 
 .half-width {
     width: 50%;
-    margin-left: 5%;
+    padding: 3%;
+    
+}
+.box {
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+    
 }
 
 .half-width img {
-    width: 70%;
+    width: 90%;
+    border-radius: 20px;
+    
+    
 }
 
 .button-link {
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-weight: 600;
     padding: 10px 40px;
     border-radius: 20px;
     background-image: linear-gradient(rgb(255, 197, 88), tomato);
+    margin: 30px 0px;
 }
 
 .align {
     text-align: center;
+}
+
+.info {
+    text-align: center;
+    margin: 20px 100px 70px 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey;
+    padding-left: 10px;
+}
+
+.one-thard {
+    width: 30%;
+
+}
+
+
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    height: 150px;;
+    background-color: black;
+    text-align: center;
+}
+.eat {
+    color: orange;
+}
+.fresh {
+    margin-left: 10px;
+    color: gray;
+}
+footer P {
+    color: white;
 }
