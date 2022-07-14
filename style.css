@@ -50,10 +50,9 @@ h3 {
 }
 
 .half-width img {
+    
     width: 90%;
-    border-radius: 20px;
-    
-    
+    border-radius: 20px; 
 }
 
 .button-link {
